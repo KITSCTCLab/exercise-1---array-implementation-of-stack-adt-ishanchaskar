@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5 5\r\n1 10\r\n1 20\r\n1 30\r\n1 40\r\n1 50",
+      "output": "10\r\n20\r\n30\r\n40\r\n50",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "3 1\r\n1 22",
+      "output": "22",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5 4\r\n1 10\r\n2\r\n1 13\r\n1 11",
+      "output": "13\r\n11",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "3 2\r\n2\r\n1 15",
+      "output": "15",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "2 4\r\n2\r\n1 23\r\n2\r\n2",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
