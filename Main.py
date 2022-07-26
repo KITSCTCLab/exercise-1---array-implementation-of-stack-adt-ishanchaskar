@@ -17,14 +17,14 @@ class Stack:
         else :
             return 0
     def push(self, data):
-        if not self.is_full()
-        print("The stack is full")              
-        return "Push is not allowed"
+         if self.isFull()==1:
+                print("The stack is full")              
+                return "Push is not allowed"
         else:
-            self.top = self.top+1
-            self.l[self.top]=data
+                self.top = self.top+1
+                self.l[self.top]=data
     def pop(self):
-        if not self.is_empty():
+        if self.isEmpty()==1:
             return "the stack is empty"
         else:
             print(self.l[self.top])
